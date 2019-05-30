@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.21)  30 MAY 2019 18:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.21)  30 MAY 2019 18:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -324,7 +324,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 Here is how much of TeX's memory you used:
  2699 strings out of 493089
  35108 string characters out of 6134842
- 89223 words of memory out of 5000000
+ 89339 words of memory out of 5000000
  6116 multiletter control sequences out of 15000+600000
  62152 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -338,7 +338,7 @@ ocal/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on skeleton.pdf (2 pages, 89412 bytes).
+Output written on skeleton.pdf (2 pages, 91515 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream

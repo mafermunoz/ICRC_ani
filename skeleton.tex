@@ -4,9 +4,10 @@
 % data according to the instructions in PoSauthmanual.pdf
 \documentclass{PoS}
 
+\usepackage[colorinlistoftodos]{todonotes}
 \title{Anisotropy Searches with DAMPE}
 
-\ShortTitle{Short Title for header}
+\ShortTitle{Anisotropy Searches with DAMPE}
 
 \author{\speaker{Maria Munoz}\thanks{A footnote may follow.}\\
         University of Geneva. Geneva, Switzerland\\
@@ -16,8 +17,10 @@
 %        Affiliation\\
 %        E-mail: \email{...}}
 
-\abstract{..........................\
-          ...........................}
+\abstract{The DArk Matter Particle Explorer (DAMPE) is a satellite-borne experiment successfully launched in December 2015. The main scientific goal of the mission is to perform high precision measurements of the High Energy Cosmic Ray (HECR) sky. After more than three years of data taking, DAMPE has collected over  5.6 billion events. The electron spectrum and proton spectrum, both from 20 GeV up to several TeV have recently been published by the collaboration.
+
+In recent years the anisotropy of CRs results have been presented by several collaborations with the use of ground-based  and space-based experiments from energies above 10's of GeV up to EeV. The DAMPE experiment is currently one of the most sensitive space-based experiments operating within its energy range and is therefore capable of performing detailed anisotropy searches at energies up to few TeV. In this contribution we discuss the method used for anisotropy searches and the sensitivity of the method. Finally we present the first results of anisotropy studies using the DAMPE data at low energies $\<$ 500 GeV. This includes studies in different energy ranges and with different angular scales
+}
 
 \FullConference{36th International Cosmic Ray Conference -ICRC2019-\\
 		July 24th - August 1st, 2019\\
@@ -26,7 +29,99 @@
 
 \begin{document}
 
-\section{...}
+\section{Introduction}
+
+The origin, propagation and acceleration of  cosmic rays from galactic and extragalactic origin is currently one the most important open questions in astrophysics. The propagation of  cosmic rays through turbulent magnetic fields,is reason why the arrival direction of  Cosmic Rays is highly uniform. The interaction of charged cosmic rays with different magnetic fields modfies their original direction and keeps therefore contributes to keep hidden its origin. Current theories support that cosmic rays are created in the most extreme  environments in space. The search of these laboratories might be
+The search of poctual sources or regions in the space with
+
+Recent searches for anisotropy have gathered new information in the last years in different energy ranges with both space-based and groud-based experiments. The results have shown that the anisotropy of charged cosmic rays is energy dependent. Sensitivity to the detection of different anisotrpies is highly dependent on the type of instrument and its livetime. Contribution from space-based experiments is expected to be of great interest becuase of the full-sky coverage vs. the partial sky coverage pressented for ground experiments. An important limitation for space-based experimetns is the  rate of detected events.
+
+\section{The DArk Matter Particle Explorer}
+
+The DArk Matter Partcile Explorer (DAMPE) is an space-borne experiment, it was launched the 17th of December 2015.  Since then it has been orbiting in a sun-synchronous orbit (SSO) at an altitude of 500 km, each orbit has a duration of 95 minutes. DAMPE consists of four sub-detectors, from top to bottom these are:
+The \textbf{Plastic Scintillator Detector (PSD)} is a double layer array of plastic strips that covers the top of the instrument,for charge measurements. The \textbf{Silicon tungsten tracker (STK)} is composed of six double-layers of silicon strips, for re-solving the incoming direction of the high energy particles. The \textbf{Bismuth Germanium Oxide (BGO)} calorimeter that comprises 308 BGO scintillating bars, arranged in 14 layers. Each bar has two PMT’s at both ends of the bars for read out. Allowing the measurement of the shower profile, therefore vital for the electron/proton separation.The \textbf{Neutron Detector (NUD)} consists of four blocks of boron-loaded plastics scintillators wrapped in aluminum film, used for hadron rejection for energies above 150 GeV.
+
+DAMPE's main objective is to measure cosmic rays from 20 GeV up to the TeV regime. with the full capabilities of the  In the last years, DAMPE has made important contributions in the measurements of the electron spectrum, and preliminary results on  proton and heavy ions studies have also been recently presented.
+
+In DAMPE's energy range measurements have been made thanks to air-shower experiments such as HAWC,MILAGRO and TIBET among others. Searches have also been with space-based experiments such as PAMELA,AMS and FERMI. At higher energies important results have been presented by HESS and Telescope Array. The anisotrpy observed has been showed to be dependet on energy.
+
+
+\section{Data Set}
+DAMPE has succesfully collected data for over  3.5 years.   Because of possible seasonal or yearly effects, as described in section (dsb). The anisotropy method search is applied annually, therefore the dataset included data  for 3 years. As a first approach the analysis is focused in an all particle selection. An all particle improves the sensitivity of the dipole we can detect and reduces statistical fluctuations, nevertheless it limits the energy resolution of the results. Considering the general of cosmic rays we can assume that at least $\sim 86 \%$ of the selected events are protons, $ \sim 12 \%$ corresponds to heavy nuclei and  $ \sim 2\%$ of electons. Therefore
+
+Selection is applied to insure that particles are arriving. Therefore a maximum incoming angle with respect of the detector of $60 ^{\circ}$ is required. Also  events detected while the detector is crossing the South Atlantic Anomaly are ignored.
+
+The analyzed data correspond to energies above 50 GeV and below 500 GeV. The low energy cut is applied to take into consideration the geomagnetic effect that will modify the  anisotropy  result.
+The total amount of events measured is . These events can be observed as function of their incoming direction in Figure in Galactic coordinates.The energy distribution is showed in Figure \ref{allCR_ene}.
+
+
+Using a conservative selection for events,
+
+\begin{figure}[!ht]\label{allCR_ene}
+
+\includegraphics[scale=0.2]{Energy_Spectrum.png}
+\caption{Distribution as a function of Energy for the all particle selection used for this work. Enegy range from 50 GeV to 500 GeV. The total amount of events collected for 3 years of measuremtns is $\sim 59.6$ million events.}
+
+\end{figure}
+
+
+
+
+
+\section{Anisotropy Search}
+For this work we will focus on anisotrp searches at relative large  angular scales. In general at large scale the center of interest is to look for the a predicted  dipole with an expected amplitude $O (10^{-3})$. Taking into account the strenght of the anticipated dipole, the understandig of the detector acceptance, orbit and systematic effect requires such a high precision that we couldn't recover reliable anisotropy measurements.
+Therefore it is necessary to create a reference map that will be isotropic.
+The isotropic map inherits the properties and characteristics of the detector aswell as orbital dependencies. To calculate the  reference map, we use a rate averaged method. The method consistst in  recording the average rate of detected events per second. This will  give us a poissoian distrbutian from which wee can search how many
+Necessary for the calculation is the  direction of the detected events
+
+
+The ratio between the data map and the isotropic map gives us a map without corrected for exposure and instrumental effects, and that describes the intensity of the cosmic rays flux at different  arrivals. The relative intensity can be described as follows:
+\begin{equation}
+\delta I=\frac{D}{R} -1
+\end{equation}
+
+To evaluate significance of the anisotrpy map we use formula (Li \& MA 1982):
+\begin{equation}
+S=\sqrt[]{2} \bigg{\{} N_D \space ln [ \frac{1+\alpha}{\alpha} (\frac{N_D}{N_D+N_R}) ] +N_R ln[(1+\alpha)(\frac{N_R}{N_D+N_R})] \bigg{\}}^{1/2}
+\end{equation}
+where $N_D$  and $N_R$ are the oberved mad and the reference map respectively. Finally alpha scales for the difference in exposure between the two maps, becuase of the used method to calcualte the reference map, alpha is set to 1.
+\subsection{Seasonal Effects}
+There are different effects that could affect the rate of events detected, like solar effect, geomagnetic effect, east-west effect and compton-getting effect.
+Fisrtly talking about solar effect when  solar actiity is high,
+
+East-west effect
+The east-west effect is observed in charged
+The east-west effect is an additional effect that can create the  illusion of anisotropy.This effect is more apparent for low energies cosmic rays.
+
+The earth magnetics field  can de roughly considered as a dipole. The geographical  north pole and the  magnetic pole are separated. The earth magnetic  field  shields earth from cosmic rays. The earth magnetic field generates the well known geomagnetic effect. The  geomagnetic effect is dependent on latitude and energy of the arriving particles.  Therefore to avoid
+The earth's magnetic field can be roughly approximated to a dipole. The magnetic poles are different from the geographical poles. The magnetic poles are  tilted with respect to the  geographical poles by a $\sim 11.5 ^{\circ}$ separation.
+
+Nevertheless the magnetic field isn't, symmetric.  This is  because of the solar wind. The solar wind applies a pressure over the magnetic lines, causing a long tail in the direction of the solar wind. In other words this is also the opposite direction of earth.
+\begin{figure}[!ht]\label{allCR_east_west_effect}
+
+\includegraphics[scale=0.5]{east-west_effect_all.png}
+\caption{Sky map in altitude-azimuth coordinates. The East-west effect is not clearly visible on our  data set thanks to the  60 degree  imposed  cut on the data. Map done using healpix with NSIDE=16.  }
+
+\end{figure}
+
+\section{Results}
+
+Results are presented in equatorial coordinates.
+Plots are presented in Hierarchical Equal Area isoLatitude Pixelization (HEALPix), therefore all pixels have the same angular sizes.
+
+
+
+
+
+
+\missingfigure{real data map}
+
+\missingfigure{reference map}
+\missingfigure{Anisotropy map}
+\missingfigure{Upper limits}
+
+
+
 
 \begin{thebibliography}{99}
 \bibitem{...}
